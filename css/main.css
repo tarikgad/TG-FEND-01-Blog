@@ -1,0 +1,96 @@
+<link href="https://fonts.googleapis.com/css?family=Cute+Font|Merriweather|Roboto+Mono&display=swap" rel="stylesheet">
+
+@media(max-width: 320px){
+    .container{
+        display: grid;
+        grid-template-areas:
+            "hd hd"
+            "bdy sd"
+            "bdy sd"
+            "bdy sd"
+            "bdy sd"
+            "bdy sd"
+            "ft ft";
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+    .container{
+        display: grid;
+        grid-template-areas:
+            "hd hd hd"
+            "bdy bdy sd"
+            "bdy bdy sd"
+            "bdy bdy sd"
+            "bdy bdy sd"
+            "bdy bdy sd"
+            "ft ft ft";
+    }
+
+}
+
+@media(min-width: 901px){
+    .container{
+        display: grid;
+        grid-template-areas:
+            "hd hd hd hd hd"
+            "bdy bdy bdy bdy sd"
+            "bdy bdy bdy bdy sd"
+            "bdy bdy bdy bdy sd"
+            "bdy bdy bdy bdy sd"
+            "bdy bdy bdy bdy sd"
+            "ft ft ft ft ft";
+    }
+}
+
+.header{
+    grid-area: hd;
+    display: flex;
+    direction: row;
+    align-items:center;
+}
+
+.im{
+    justify-content: center;
+    width: 10%;
+}
+
+.hd{
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.message{
+    grid-area: bdy;
+}
+
+.side{
+    grid-area: sd;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+
+.foot{
+    text-align: center;
+    grid-area: ft;
+    font-family: 'Cute Font', cursive;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Merriweather', serif;
+font-family: 'Cute Font', cursive;
+*/
+
