@@ -1,3 +1,13 @@
+.fa-facebook {
+  color: white;
+  background: #3B5998;
+}
+
+.fa-linkedin {
+  color: white;
+  background: #007bb5;
+}
+
 a:link {
   color: #f6f;
   text-decoration: none;
@@ -6,3 +16,21 @@ a:link {
 a:hover {
   color: blue;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a:hover{
+  background-color: red;
+}
+

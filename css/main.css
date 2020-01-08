@@ -4,6 +4,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Cute+Font|Lalezar|Roboto+Mono&display=swap" rel="stylesheet">
 
+
 @media(max-width: 320px){
     .container{
         display: grid;
@@ -90,3 +91,7 @@ button{
     color: #6cf;
 }
 
+.message .im{
+    box-shadow: 0 4px 8px 0;
+    width: 10%;
+}
