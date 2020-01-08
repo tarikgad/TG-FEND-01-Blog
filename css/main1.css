@@ -18,3 +18,12 @@
     font-family: 'Roboto Mono', monospace;
     color: blue;
 }
+.card{
+    position: relative;
+    left: 2em;
+    display: flex;
+    direction: row;
+    box-shadow: 0 4px 8px 0;
+    width: 20em;
+}
+

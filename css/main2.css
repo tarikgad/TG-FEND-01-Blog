@@ -7,30 +7,36 @@
   color: white;
   background: #007bb5;
 }
+.fa:hover{
+    color: #f6f;
+}
+
+.mail{
+    color: #f6f;
+}
 
 a:link {
-  color: #f6f;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+    color: blue;
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 .navbar a:hover{
-  background-color: red;
+    background-color: red;
 }
 
